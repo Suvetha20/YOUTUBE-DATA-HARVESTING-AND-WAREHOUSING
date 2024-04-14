@@ -54,7 +54,7 @@ To run the YouTube Data Harvesting and Warehousing project, follow these steps:
 
 * Install Python: Install the Python programming language on your machine.
 
-* Install Required Libraries: Install the necessary Python libraries using pip or conda package manager. Required libraries include Streamlit, MongoDB driver, SQLAlchemy, Pandas, and Matplotlib.
+* Install Required Libraries: Install the necessary Python libraries using pip or conda package manager. Required libraries include Streamlit, Pandas.
 
 * Set Up Google API: Set up a Google API project and obtain the necessary API credentials for accessing the YouTube API.
 
