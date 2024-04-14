@@ -1,5 +1,5 @@
 google-api-python-client
 MySQL
-Pandas
 Streamlit
+Pandas
 JSON
