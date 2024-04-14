@@ -3,9 +3,7 @@
 Introduction
 YouTube Data Harvesting and Warehousing is a project that aims to allow users to access and analyze data from multiple YouTube channels. The project utilizes SQL, Pandas and Streamlit to create a user-friendly application that allows users to retrieve, store, and query YouTube channel and video data.
 
-Project Overview
-
-The YouTube Data Harvesting and Warehousing project consists of the following components:
+Project Overview:The YouTube Data Harvesting and Warehousing project consists of the following components:
 
 *Streamlit Application: A user-friendly UI built using Streamlit library, allowing users to interact with the application and perform data retrieval and analysis tasks.
 *YouTube API Integration: Integration with the YouTube API to fetch channel and video data based on the provided channel ID.
@@ -18,8 +16,7 @@ Streamlit: A Python library used for creating interactive web applications and d
 YouTube API: Google API is used to retrieve channel and video data from YouTube.
 SQL (MySQL): A relational database used as a data warehouse for storing migrated YouTube data.
 
-TOOLS AND LIBRARIES USED:
-This project requires the following components:
+TOOLS AND LIBRARIES USED:This project requires the following components:
 
 PYTHON: Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis.
 
