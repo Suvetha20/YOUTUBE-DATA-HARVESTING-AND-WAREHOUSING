@@ -41,8 +41,11 @@ This project requires the following components:
 REQUIRED LIBRARIES:
 
 1.googleapiclient.discovery
+
 2.streamlit
+
 3.Mysql
+
 4.pandas
 
 Installation and Setup
