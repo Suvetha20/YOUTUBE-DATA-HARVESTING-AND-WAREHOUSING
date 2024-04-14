@@ -6,11 +6,11 @@ YouTube Data Harvesting and Warehousing is a project that aims to allow users to
 
 Project Overview:The YouTube Data Harvesting and Warehousing project consists of the following components:
 
-Streamlit Application: A user-friendly UI built using Streamlit library, allowing users to interact with the application and perform data retrieval and analysis tasks.
+* Streamlit Application: A user-friendly UI built using Streamlit library, allowing users to interact with the application and perform data retrieval and analysis tasks.
 
-YouTube API Integration: Integration with the YouTube API to fetch channel and video data based on the provided channel ID.
+* YouTube API Integration: Integration with the YouTube API to fetch channel and video data based on the provided channel ID.
 
-SQL Data : Migration of data from the data lake to a SQL database, allowing for efficient querying and analysis using SQL queries.
+* SQL Data : Migration of data from the data lake to a SQL database, allowing for efficient querying and analysis using SQL queries.
 
 Technologies Used
 
