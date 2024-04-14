@@ -60,7 +60,7 @@ To run the YouTube Data Harvesting and Warehousing project, follow these steps:
 
 * Configure Database: Set up a  SQL database (MySQL) for storing the data.
 
- *Configure Application: Update the configuration file or environment variables with the necessary API credentials and database connection details.
+* Configure Application: Update the configuration file or environment variables with the necessary API credentials and database connection details.
 
 * Run the Application: Launch the Streamlit application using the command-line interface
 
