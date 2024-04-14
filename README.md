@@ -40,13 +40,13 @@ This project requires the following components:
 
 REQUIRED LIBRARIES:
 
-1.googleapiclient.discovery
+* googleapiclient.discovery
 
-2.streamlit
+* streamlit
 
-3.Mysql
+* Mysql
 
-4.pandas
+* pandas
 
 Installation and Setup
 
@@ -69,9 +69,13 @@ Features
 The YouTube Data Harvesting and Warehousing application offers the following features:
 
 * Retrieval of channel and video data from YouTube using the YouTube API.
+
 * Storage of data in a SQL database as a data lake.
+  
 * Migration of data from the data lake to a SQL database for efficient querying and analysis.
+
 * Search and retrieval of data from the SQL database using different search options, including joining tables.
+  
 * Support for handling multiple YouTube channels and managing their data.
 
 Conclusion
