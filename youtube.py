@@ -287,7 +287,7 @@ def main():
     st.sidebar.header('Menu')
     option=st.sidebar.radio("Select Option",['Home','Queries'])
     if option=="Home":
-            st.header(':blue[YOUTUBE DATA HARVESTING AND WAREHOUSING]', divider='rainbow')
+            st.header(':red[YOUTUBE DATA HARVESTING AND WAREHOUSING]', divider='orange')
             channel_id = st.text_input("Enter Channel ID")
             
             if st.button("Get Channel Details"):
