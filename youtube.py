@@ -38,7 +38,7 @@ def Channel_Info(channel_id):
 
     cursor.execute("""CREATE TABLE IF NOT EXISTS channel_info (
                         channel_name VARCHAR(255),
-                        channel_id VARCHAR(255),
+                        channel_id VARCHAR(255) PRIMARY KEY,
                         subscribe INT,
                         views BIGINT,
                         total_videos INT,
@@ -114,7 +114,7 @@ def Get_Video_Details(Video_id):
         cursor.execute("""CREATE TABLE IF NOT EXISTS video_details(
                     channel_name VARCHAR(255),
                     channel_id VARCHAR(255),
-                    video_id VARCHAR(255),
+                    video_id VARCHAR(255) PRIMARY KEY,
                     title TEXT,
                     tags TEXT,
                     thumbnail TEXT,
@@ -172,7 +172,7 @@ def get_comment_Details(get_Comment):
     comment_List=[]
     try:
         cursor.execute("""CREATE TABLE IF NOT EXISTS comment_details (
-                            comment_id VARCHAR(255),
+                            comment_id VARCHAR(255) PRIMARY KEY,
                             video_id VARCHAR(255),
                             comment_text TEXT,
                             author VARCHAR(255),
@@ -215,7 +215,7 @@ def get_playlist_details(channel_id):
     Playlist_Data=[]
     try:
         cursor.execute("""CREATE TABLE IF NOT EXISTS playlist_details (
-                            playlist_id VARCHAR(255),
+                            playlist_id VARCHAR(255) PRIMARY KEY,
                             title VARCHAR(255),
                             channel_id VARCHAR(255),
                             published_date DATETIME,
@@ -287,10 +287,10 @@ def main():
     st.sidebar.header('Menu')
     option=st.sidebar.radio("Select Option",['Home','Queries'])
     if option=="Home":
-            st.header(':red[YOUTUBE DATA HARVESTING AND WAREHOUSING]', divider='orange')
-            channel_id = st.text_input("Enter Channel ID")
+            st.subheader(':green[YOUTUBE--DATA--HARVESTING--AND--WAREHOUSING]')
+            channel_id = st.text_input(':blue[Enter Channel ID]')
             
-            if st.button("Get Channel Details"):
+            if st.toggle("Get Channel Details"):
                 details = fetch_all_data(channel_id)
                 
                 st.subheader('Channel Details')
